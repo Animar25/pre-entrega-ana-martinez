@@ -1,0 +1,33 @@
+.container-grid-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 30% 35% 35%;
+    grid-template-areas:
+        "titulo-3 titulo-3"
+        "bombas jaboncitos"
+        "bombas jaboncitos" 
+    ;
+    justify-items: center;
+
+}
+.burbujas {
+    background-image: url("../assets/img/burbujas.jpg");
+    height: 100vh;
+}
+
+.titulo-3 {
+    grid-area: titulo-3;
+}
+
+.bombas{ 
+    grid-area: bombas;
+}
+
+.jaboncitos{
+    grid-area: jaboncitos;
+}
+
+.productosKids {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+}

@@ -1,0 +1,52 @@
+.container-grid {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+        "velas difusores jabones bathBombs"
+        "velas difusores jabones bathBombs"
+    ;
+    gap: 30px;
+    justify-content: center;
+    align-content: center;
+}
+
+main {
+    grid-area: main;
+    height: 100vh;
+    .esencias {
+        font-family: 'Shadows Into Light', cursive;
+        font-size: 50px;
+        text-align: center;
+    }
+    img {
+        width: 300px;
+        height: 250px;
+        display: block;
+        margin: auto;
+    }
+    h2 {
+        font-family: 'Shadows Into Light', cursive;
+        font-size: 30px;
+        text-align: center;
+    }
+    .imagenProducto {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        display: block;
+        margin: auto;
+    }
+    .descripcion {
+        font-family: 'Gudea', sans-serif;
+        font-size: 20px;
+        text-align: center;
+    }
+    .titulo {
+        font-family: 'Shadows Into Light', cursive;
+        font-size: 30px;
+        text-align: center;
+        padding-top: 40px;
+    }
+}
