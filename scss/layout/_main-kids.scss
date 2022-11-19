@@ -1,33 +1,43 @@
-.container-grid-1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 30% 35% 35%;
-    grid-template-areas:
-        "titulo-3 titulo-3"
-        "bombas jaboncitos"
-        "bombas jaboncitos" 
-    ;
-    justify-items: center;
-
-}
 .burbujas {
-    background-image: url("../assets/img/burbujas.jpg");
-    height: 100vh;
-}
-
-.titulo-3 {
-    grid-area: titulo-3;
-}
-
-.bombas{ 
+    background-image: url("../assets/img/cuacuit3.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 150px;
+  }
+  
+  .container-grid-1 {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 75% 25%;
+    grid-template-areas: 
+      "bombas jaboncitos"
+      "bombas jaboncitos";
+    justify-items: center;
+    align-content: center;
+  }
+  
+  
+  .bombas {
     grid-area: bombas;
-}
-
-.jaboncitos{
+  }
+  
+  .jaboncitos {
     grid-area: jaboncitos;
-}
-
-.productosKids {
+  }
+  
+  .productosKids {
     font-family: 'Shadows Into Light', cursive;
     font-size: 30px;
-}
+  }
+  
+  .bombaskids {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 30px;
+    font-size: 18px;
+    justify-content: center;
+    text-align: center;
+  }

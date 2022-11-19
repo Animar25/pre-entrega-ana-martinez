@@ -13,65 +13,88 @@
     <meta property="og: description" content="colores y aromas para los mas peques">
     <meta property="og: image" content="../assets/img/velas1.jpeg">
     <title>Kids</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="shortcut icon" href="../assets/img/logo1.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
     <header>
-        <div class="contenedor-grid">
-
-        <div class="buscador">
-            <input type="text" value="Buscar">
-        </div>
-        <nav>
-            <ul class="barraDeNavegacion">
-                <li><a href="../pages/Inicio.html">Inicio</a></li>
-                <li><a href="../pages/Quien Soy.html">Quien Soy</a></li>
-                <li><a href="../pages/Productos.html">Productos</a></li>
-                <li><a href="../pages/Kids.html">Kids</a></li>
-                <li><a href="../pages/Contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-        <div class="logo">
-            <a href="../index.html"><img src="../assets/img/logo1.png" alt=""></a>
-        </div>
-        </div>
-    </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html"><img src="../assets/img/logo1.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse nav justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav nav justify-content-end">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/Quien Soy.html">Quien Soy</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/Productos.html">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/Kids.html">Kids</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/Contacto.html">Contacto</a>
+                  </li>
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
     </header>
     <main>
         <section class="burbujas">
-            <div class="container-grid-1">
                 <h1 class="titulo titulo-3">CUACUIT-Para los mas chiquitos</h1>
+                <div class="container-grid-1">
                 <div class="bombas">
                     <h2 class="productosKids producto-1">Bath Bombs</h2>
                     <div>
                         <img src="../assets/img/Mini Bath Bombs.jpeg" class="imagenProducto" alt="">
                     </div>
-                    <div>
+                    <div class="precio">
                         <p>$....</p>
-                        <button>Comprar</button>
+                        <button>Añadir al Carrito</button>
                     </div>
                 </div>
                 <div class="jaboncitos">
                     <h2 class="productosKids producto-2">Jaboncitos</h2>
                     <div>
-                        <img src="../assets/img/jaboncitos.jpeg" class="imagenProducto" alt="">
+                        <img src="../assets/img/jabonesfoto.jpeg" class="imagenProducto" alt="">
                     </div>
-                    <div>
+                    <div class="precio">
                         <p>$....</p>
-                        <button>Comprar</button>
+                        <button>Añadir al Carrito</button>
                     </div>
                 </div>
+              </div>
+            </div>
+            <div class="bombaskids">
+                <p>Las <b>bombas de baño o bath bombs</b> son pelotitas de sales efervescentes que se tiran en la bañadera y mientras giran, limpian el cuerpo y colorean el agua.⁠ Vienen de distintos colores (rosa, celeste, amarillo, violeta o  multicolor) Están aprobadas para uso en niñxs desde 3 años y dejan un perfume rico y suave. ¡Puro color en el agua y sin manchar el cuerpo!
+                </p>
+            <div>
+                <p>
+                    Los <b>jaboncitos</b> vienen de distintos colores (amarillo, celeste, rosa o violeta) y formas (corazones, flores, ositos, dinosaurios, unicornios, peces). Consultar disponibilidad al momento de la compra!
+                </p>
+            </div>
             </div>
         </section>
     </main>
     <footer>
         <div class="redes">
-            <img src="../assets/img/whatsapp.png" class="whatsapp" alt="">
-            <img src="../assets/img/instagram.png" class="instagram" alt="">
+            <a href="https://www.whatsapp.com/?lang=es"><img src="../assets/img/whatsapp.png" alt=""></a>
+            <a href="https://www.instagram.com/"><img src="../assets/img/instagram.png" alt=""></a>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
 </body>
 
 </html>

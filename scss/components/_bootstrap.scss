@@ -1,0 +1,16 @@
+.navbar-light {
+    background: linear-gradient(90deg, rgba(254, 248, 236, 0.8211659663865546) 0%, rgba(245, 247, 247, 0.9332107843137255) 50%, rgba(237, 255, 253, 0.7595413165266106) 100%);
+  }
+  
+  .navbar .navbar-nav .nav-link:hover {
+    color: rgba(0, 255, 255, 0.925);
+  }
+  
+  img {
+    width: 80px;
+    height: 80px;
+  }
+  .carousel-inner {
+    display: flex;
+    justify-content: start;
+  }

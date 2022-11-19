@@ -1,16 +1,16 @@
 footer {
     height: 100%;
-    background-color: $background-principal;
+    background-color: $background-secundario;
     display: flex;
     justify-content: center;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     .redes {
         text-align: center;
         img {
         width: 32px;
         height: 32px;
-        margin-left: 15px;
+        margin-left: 45px;
         }
     }
 }
