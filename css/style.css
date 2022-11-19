@@ -37,7 +37,7 @@ main {
   grid-area: main;
   height: 100%; }
   main .imagendefondo {
-    background-image: url(../assets/img/lucesfondo.jpeg);
+    background-image: url(../assets/assets/img/lucesfondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -90,8 +90,7 @@ main {
   height: 100vh;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  grid-template-areas: "velas difusores"
- "jabones bathBombs";
+  grid-template-areas: "velas difusores" "jabones bathBombs";
   gap: 30px;
   justify-content: center;
   align-content: center;
@@ -113,8 +112,7 @@ main {
   height: 100%;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 75% 25%;
-  grid-template-areas: "bombas jaboncitos"
- "bombas jaboncitos";
+  grid-template-areas: "bombas jaboncitos" "bombas jaboncitos";
   justify-items: center;
   align-content: center; }
 
@@ -204,8 +202,7 @@ footer {
     height: 100%;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-template-areas: "velas difusores"
- "jabones bathBombs";
+    grid-template-areas: "velas difusores" "jabones bathBombs";
     gap: 20px;
     justify-content: center;
     align-content: center; }
@@ -242,8 +239,7 @@ footer {
     height: 100%;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-template-areas: "velas difusores"
- "jabones bathBombs";
+    grid-template-areas: "velas difusores" "jabones bathBombs";
     gap: 30px;
     justify-content: center;
     align-content: center; }
@@ -261,8 +257,7 @@ footer {
     height: 100%;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 75% 25%;
-    grid-template-areas: "bombas jaboncitos"
- "bombas jaboncitos";
+    grid-template-areas: "bombas jaboncitos" "bombas jaboncitos";
     justify-items: center;
     align-content: center; }
   .bombas {
@@ -312,10 +307,7 @@ footer {
     height: 100%;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    grid-template-areas: "velas"
- "difusores"
- "jabones"
- "bathBombs";
+    grid-template-areas: "velas" "difusores" "jabones" "bathBombs";
     justify-content: center;
     align-content: center; }
   main .esencias {
@@ -351,10 +343,7 @@ footer {
     height: 100%;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    grid-template-areas: "velas"
- "difusores"
- "jabones"
- "bathBombs";
+    grid-template-areas: "velas" "difusores" "jabones" "bathBombs";
     gap: 10px;
     justify-content: center;
     align-content: center; }
@@ -372,8 +361,7 @@ footer {
     height: 100%;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
-    grid-template-areas: "bombas"
- "jaboncitos";
+    grid-template-areas: "bombas" "jaboncitos";
     justify-items: center;
     align-content: center; }
   .bombas {
